@@ -79,6 +79,8 @@ mark{color:var(--ink);padding:0 .1em;-webkit-box-decoration-break:clone;box-deco
 .band figcaption{position:absolute;left:var(--m);bottom:18px;padding:6px 10px;background:var(--bg);color:var(--ink);font-size:var(--s-small);max-width:calc(100% - 2*var(--m))}
 
 /* work */
+.hint{font-size:var(--s-small);color:var(--muted);margin:-12px 0 20px}
+.ar{font-weight:400}
 .work{background:var(--surface)}
 .wrap{display:grid;grid-template-columns:minmax(0,640px) minmax(0,1fr);column-gap:clamp(32px,5vw,96px);margin-left:calc(22vw - var(--m))}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}

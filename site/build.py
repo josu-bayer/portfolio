@@ -5,6 +5,7 @@ OUT = os.path.join(os.path.dirname(__file__), "public")
 EMAIL = "bayer.josu@gmail.com"
 LINKEDIN = "https://www.linkedin.com/in/josu-bayer-agirre-090678208/"
 GITHUB = "https://github.com/josu-bayer"
+ARROW = '<span class="ar" aria-hidden="true"> ↗</span>'
 CV = "files/CV_Josu_Bayer_Agirre.pdf"
 
 
@@ -22,7 +23,7 @@ def page(lang):
     for i, r in enumerate(ROWS):
         name, kind, fig, cap = r[lang]
         inner = (
-            f'<span class="nm">{e(name)}</span><span class="kd">{e(kind)}</span>'
+            f'<span class="nm">{e(name)}{ARROW if r["repo"] else ""}</span><span class="kd">{e(kind)}</span>'
             f'<span class="yr">{e(r["year"])}</span><span class="cp">{e(cap)}</span>'
         )
         attrs = f'class="row" data-t="{r["t"]}" data-fig="{e(fig)}" data-cap="{e(cap)}" data-name="{e(name)}"'
@@ -101,6 +102,7 @@ def page(lang):
     <div class="ledger">
       <h2 class="sh rv">{e(t['h_work'])}</h2>
       <div class="chips rv" role="group" aria-label="{e(t['h_work'])}">{chips}</div>
+      <p class="hint rv"><span aria-hidden="true">↗</span> {e(t['repo_hint'])}</p>
       <ul class="rows rv">
         {''.join(rows)}
       </ul>
@@ -116,8 +118,8 @@ def page(lang):
 </section>
 
 <figure class="band" data-drift>
-  <img src="{A('img/engraving.jpg')}" width="1600" height="905" alt="Nineteenth-century engraving of Bilbao seen from the hills, church towers and rooftops with mountains behind" loading="lazy" decoding="async" data-oy="60">
-  <figcaption>{e(t['eng_cap'])}</figcaption>
+  <img src="{A('img/butroi.jpg')}" width="1600" height="792" alt="Butroi castle in Gatika, Bizkaia, seen from below, with two round towers and crenellated walls against a blue sky" loading="lazy" decoding="async" data-oy="40">
+  <figcaption>{e(t['butroi_cap'])}</figcaption>
 </figure>
 
 
@@ -137,10 +139,6 @@ def page(lang):
 
 <section class="contact" id="contact">
   <h2 class="sh rv">{e(t['h_contact'])}</h2>
-<figure class="band" data-drift>
-  <img src="{A('img/chart.jpg')}" width="1920" height="1327" alt="Admiralty chart of the Abra de Bilbao, 1932: the coast, soundings and the towns of Algorta, Las Arenas and Portugalete at the mouth of the estuary" loading="lazy" decoding="async" style="--ox:72%" data-oy="58">
-  <figcaption>{e(t['chart_cap'])}</figcaption>
-</figure>
   <div class="crow r1 rv"><span>{e(cr[0])}</span><img class="face" src="{A('img/josu.jpg')}" width="600" height="784" alt="{e(t['photo_alt'])}" loading="lazy" decoding="async"></div>
   <a class="crow r2 rv" href="mailto:{EMAIL}"><span>{EMAIL}</span></a>
   <a class="crow r1 rv" href="{LINKEDIN}" rel="me noopener"><span>{e(cr[2])}</span></a>
