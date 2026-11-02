@@ -139,12 +139,12 @@ BACKGROUND = {
 T = {
     "en": dict(
         lang="en", title="Josu Bayer, physicist and engineer who manages projects and builds with AI",
-        desc="Josu Bayer Agirre is a physicist and electronic engineer from Bizkaia with an MSc in AI and language technology. Projects led, research and small apps.",
+        desc="Physicist and electronic engineer from Bizkaia. Projects led, research and small apps.",
         skip="Skip to content", hello="Say hello", other_lang="Euskara", other_href="eu/",
-        self_href="./", sentence="Physicist and electronic engineer from Bizkaia. I manage projects and build with AI.",
+        self_href="./", sentence="Josu Bayer, physicist and electronic engineer from Bizkaia.", h1=("I manage projects", "and build with AI."),
         h_about="About", h_work="Work", h_bg="Background", h_contact="Contact",
         about=[
-            "<mark class=\"hl3\">I'm Josu Bayer</mark>, a physicist and electronic engineer from <mark class=\"hl2\">Bizkaia</mark> working where physics, software and people meet. I did a double degree at UPV/EHU, then a <mark class=\"hl1\">master's in artificial intelligence and language technology</mark>, and I work with the university's IXA group on models that read social-media text for signs of psychological risk. Outside the lab I organise things. In 2025 I co-directed <mark class=\"hl2\">ENEF</mark>, a five-day national congress for two hundred physics students, and raised <mark class=\"hl1\">more than €80,000</mark> for it from about thirty companies and public bodies. I was secretary of <mark class=\"hl3\">ZIMATEK</mark> for three years, co-founded the university's RSEF student group, and now co-coordinate a team of four taking <mark class=\"hl2\">science experiments into schools</mark>. In my spare time I build <mark class=\"hl3\">small apps</mark> that friends and family use every day.",
+            "<mark class=\"hl3\">I'm Josu Bayer</mark>, a physicist and electronic engineer from <mark class=\"hl2\">Bizkaia</mark>. I did a double degree at UPV/EHU and then a <mark class=\"hl1\">master's in AI and language technology</mark>. I also organise things. I co-directed <mark class=\"hl2\">ENEF 2025</mark>, a national congress for 200 physics students, and raised <mark class=\"hl1\">more than €80,000</mark> for it. The apps below are ones I built and use."
         ],
         about_cta="If you have a project that needs both sides, say hello.",
         chips=[("all", "Everything"), ("m", "Leading"), ("a", "AI and research"), ("p", "Apps")],
@@ -163,12 +163,12 @@ T = {
     ),
     "eu": dict(
         lang="eu", title="Josu Bayer, proiektuak kudeatzen eta IArekin eraikitzen duen fisikaria eta ingeniaria",
-        desc="Josu Bayer Agirre Bizkaiko fisikaria eta ingeniari elektronikoa da, IAko eta hizkuntza-teknologiako masterrarekin. Zuzendutako proiektuak, ikerketa eta aplikazio txikiak.",
+        desc="Bizkaiko fisikaria eta ingeniari elektronikoa. Zuzendutako proiektuak, ikerketa eta aplikazio txikiak.",
         skip="Joan edukira", hello="Esan kaixo", other_lang="English", other_href="../",
-        self_href="./", sentence="Bizkaiko fisikaria eta ingeniari elektronikoa. Proiektuak kudeatzen ditut eta IArekin eraikitzen dut.",
+        self_href="./", sentence="Josu Bayer, Bizkaiko fisikaria eta ingeniari elektronikoa.", h1=("Proiektuak kudeatu", "eta IArekin eraiki"),
         h_about="Niri buruz", h_work="Lana", h_bg="Ibilbidea", h_contact="Harremana",
         about=[
-            "<mark class=\"hl3\">Josu Bayer naiz</mark>, <mark class=\"hl2\">Bizkaiko</mark> fisikaria eta ingeniari elektronikoa, fisikaren, softwarearen eta jendearen arteko bidegurutzean lan egiten dudana. UPV/EHUn ikasketa bikoitza egin nuen, eta gero <mark class=\"hl1\">Adimen Artifizialeko eta Hizkuntzaren Teknologiako masterra</mark>; gaur egun unibertsitateko IXA taldearekin lan egiten dut, sare sozialetako testuetan arrisku psikologikoaren zantzuak antzematen dituzten ereduetan. Laborategitik kanpo, gauzak antolatzen ditut. 2025ean <mark class=\"hl2\">ENEFeko</mark> zuzendarikide izan nintzen, berrehun fisika-ikasleren bost eguneko kongresu nazionalean, eta hogeita hamar bat enpresa eta erakunde publikotatik <mark class=\"hl1\">80.000 euro baino gehiago</mark> lortu nituen. Hiru urtez <mark class=\"hl3\">ZIMATEKeko</mark> idazkaria izan nintzen, unibertsitateko RSEF ikasle-taldea sortu nuen, eta orain lau pertsonako talde bat koordinatzen dut, <mark class=\"hl2\">zientzia-esperimentuak ikastetxeetara</mark> eramaten. Aisialdian, lagunek eta familiak egunero erabiltzen dituzten <mark class=\"hl3\">aplikazio txikiak</mark> egiten ditut.",
+            "<mark class=\"hl3\">Josu Bayer naiz</mark>, <mark class=\"hl2\">Bizkaiko</mark> fisikaria eta ingeniari elektronikoa. UPV/EHUn ikasketa bikoitza egin nuen, eta gero <mark class=\"hl1\">IAko eta hizkuntza-teknologiako masterra</mark>. Gauzak antolatzen ere ibili naiz. <mark class=\"hl2\">ENEF 2025</mark> zuzendu nuen, 200 fisika-ikasleren kongresu nazionala, eta <mark class=\"hl1\">80.000 € baino gehiago</mark> lortu genituen. Behekoak neuk egin eta erabiltzen ditudan aplikazioak dira."
         ],
         about_cta="Bi aldeak behar dituen proiekturen bat baduzu, esan kaixo.",
         chips=[("all", "Dena"), ("m", "Zuzendaritza"), ("a", "IA eta ikerketa"), ("p", "Aplikazioak")],

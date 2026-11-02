@@ -29,9 +29,9 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .skip:focus{left:var(--m)}
 
 /* hero: two fields meeting at the seam */
-.hero{z-index:1;--seam:50svh;--hs:clamp(5.5rem,22vw,22rem);position:relative;height:100svh;min-height:620px;overflow:hidden;background:var(--bg)}
+.hero{z-index:1;--seam:50svh;--hs:clamp(2.5rem,11vw,11.5rem);position:relative;height:100svh;min-height:620px;overflow:hidden;background:var(--bg)}
 .hero .field{position:absolute;left:0;right:0;top:var(--seam);bottom:0;background:var(--accent)}
-.hl{position:absolute;left:0;right:0;top:calc(var(--seam) - 1.29em);font-size:var(--hs);font-weight:800;line-height:.86;letter-spacing:-.035em;text-transform:uppercase;text-align:center;white-space:nowrap}
+.hl{position:absolute;left:0;right:0;top:calc(var(--seam) - 1.29em);font-size:var(--hs);font-weight:800;line-height:.86;letter-spacing:-.035em;text-align:center;white-space:nowrap}
 .hl.top{color:var(--ink);clip-path:inset(0 0 .43em 0)}
 .hl.low{color:var(--accent-ink);clip-path:inset(1.29em 0 0 0);pointer-events:none}
 .ln{display:block;overflow:hidden;padding:.14em 0 .06em;margin:-.14em 0 -.06em}
@@ -148,7 +148,7 @@ main{position:relative;z-index:1;background:var(--bg)}
 .js .rv.in{opacity:1;transform:none}
 
 @media (max-width:900px){
-  .hero{--seam:46svh;--hs:24vw}
+  .hero{--seam:46svh;--hs:11.4vw}
   .sentence{bottom:max(28px,4svh);text-align:left;left:var(--m);transform:none;width:min(30ch,calc(100% - 2*var(--m)));font-size:1.125rem}
   @keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
   .hl{white-space:normal}

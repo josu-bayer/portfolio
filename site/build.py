@@ -70,8 +70,8 @@ def page(lang):
 
 <header class="hero" id="top">
   <div class="field" aria-hidden="true"></div>
-  <h1 class="hl top" aria-label="Josu Bayer"><span class="ln"><span>Josu</span></span><span class="ln"><span>Bayer</span></span></h1>
-  <div class="hl low" aria-hidden="true"><span class="ln"><span data-w="Josu"></span></span><span class="ln"><span data-w="Bayer"></span></span></div>
+  <h1 class="hl top" aria-label="{e(' '.join(t['h1']))}"><span class="ln"><span>{e(t['h1'][0])}</span></span><span class="ln"><span>{e(t['h1'][1])}</span></span></h1>
+  <div class="hl low" aria-hidden="true"><span class="ln"><span data-w="{e(t['h1'][0])}"></span></span><span class="ln"><span data-w="{e(t['h1'][1])}"></span></span></div>
   <div class="bar">
     <a class="mark" href="#top">Josu Bayer</a>
     <div class="bar-r">
