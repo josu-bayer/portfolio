@@ -59,7 +59,7 @@ def page(lang):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(t['title'])}</title>
 <meta name="description" content="{e(t['desc'])}">
-<meta name="theme-color" content="#7d0c14">
+<meta name="theme-color" content="#0c4a4a">
 <link rel="alternate" hreflang="en" href="https://josu-bayer.web.app/">
 <link rel="alternate" hreflang="eu" href="https://josu-bayer.web.app/eu/">
 <link rel="preload" href="{A('fonts/cabinet-grotesk-800.woff2')}" as="font" type="font/woff2" crossorigin>
