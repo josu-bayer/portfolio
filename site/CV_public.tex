@@ -1,0 +1,171 @@
+%-------------------------
+% One-page PM resume, based on Jake Gutierrez's "Jake's Resume" template (MIT)
+% https://github.com/jakegut/resume
+% ATS-friendly: single column, real text, glyphtounicode
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{XCharter}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% A4 page, tight margins
+\usepackage[a4paper, left=1.5cm, right=1.5cm, top=1.1cm, bottom=1.0cm]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Machine-readable PDF for ATS
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2.5pt}}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{3pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeLine}[2]{
+  \item
+    \begin{tabularx}{\textwidth}[t]{@{}X@{\hspace{10pt}}r@{}}
+      \small #1 & \small #2 \\
+    \end{tabularx}\vspace{-3pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in, topsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Josu Bayer Agirre} \\ \vspace{2pt}
+    {\small Project \& Delivery Management $|$ Physics \& Electronic Engineering $|$ MSc in AI} \\ \vspace{3pt}
+    \small Bizkaia, Spain (open to relocation) $|$
+    \href{mailto:bayer.josu@gmail.com}{bayer.josu@gmail.com} \\
+    \href{https://www.linkedin.com/in/josu-bayer-agirre-090678208/}{linkedin.com/in/josu-bayer-agirre-090678208}
+\end{center}
+\vspace{-6pt}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{Physicist and electronic engineer with an MSc in Artificial Intelligence \& Language Technology (thesis completed, defence in February 2027) and three years of project leadership in non-profit organisations: co-led a 200-attendee national congress, leading its finance committee to \textbf{over €80,000 from about 30 sponsors}, and ran an annual programme of \textbf{12+ events}. Trained in WBS, Gantt, critical path and risk management; able to bridge business and engineering or AI teams. English C2; native Spanish and Basque. Currently available.}
+\vspace{-2pt}
+
+%-----------PROJECT LEADERSHIP-----------
+\section{Project Leadership Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Co-head of Organisation and Head of Finance \& Funding}{Sep 2024 -- Aug 2025}
+      {ENEF 2025, National Congress of Physics Students}{Basque Country, Spain}
+      \resumeItemListStart
+        \resumeItem{Raised \textbf{over €80,000 from about 30 companies and public institutions} by writing the project proposal and sponsor dossiers and running outreach through to signed agreements, fully funding a 5-day congress for \textbf{about 200 students}.}
+        \resumeItem{Co-led the \textbf{20+ member organising team} as one of its two heads, with sole responsibility for the \textbf{6-person finance committee}; prepared the spending plan for accommodation, venues and activities.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Secretary and Board Member}{Sep 2022 -- Sep 2025}
+      {ZIMATEK, Physics and Electronic Engineering Students' Association (UPV/EHU)}{Leioa, Spain}
+      \resumeItemListStart
+        \resumeItem{Delivered a yearly programme of \textbf{12+ contests and talks} (about 60 participants per event, up to 200) as one of a 4-person board, alongside a full-time double degree.}
+        \resumeItem{Designed and sold LaTeX training to \textbf{100+ attendees}, including staff at Ikerlan, generating \textbf{€3,700} for the association.}
+        \resumeItem{Co-managed an annual budget of several thousand euros with the treasurer and president (university funding, course income, Science Week).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Co-founder and Secretary}{Oct 2023 -- Sep 2025}
+      {RSEF Physics Student Group, UPV/EHU delegation}{Leioa, Spain}
+      \resumeItemListStart
+        \resumeItem{Launched the delegation from scratch and ran the local phases of national physics competitions, including the 2025 Physics Olympiad in Euskadi: exams, invigilation and participant logistics.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Co-coordinator, Science Outreach in Schools}{Apr 2023 -- Present}
+      {Independent team, previously with ZIMATEK}{Bizkaia, Spain}
+      \resumeItemListStart
+        \resumeItem{Co-coordinate a \textbf{4-person team} running experiment workshops in several schools: school contacts, materials budget, meeting minutes and task follow-up.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH-----------
+\section{Research and Technical Experience}
+  \resumeSubHeadingListStart
+    \resumeLine{\textbf{Research Intern, IXA NLP Group (UPV/EHU)}: NLP models for early mental-health risk detection, built to a fixed international shared-task deadline (IberLEF).}{Nov 2025 -- Present}
+    \resumeLine{\textbf{Research Intern, BioRes Group (UPV/EHU)}: machine-learning models in MATLAB to estimate cardiac output from BCG signals.}{Sep 2024 -- Jun 2026}
+    \resumeLine{\textbf{Research Intern, BCAM}: physics-informed neural networks for renewable-energy simulation; regular progress reports to the team.}{Aug -- Oct 2024}
+    \resumeLine{\textbf{Simulation Intern, Bisky Team (student rocketry)}: simulations to de-risk two real launches; progress reports for international competitions.}{Sep 2023 -- Sep 2024}
+    \resumeLine{\textbf{Product Owner, personal projects}: launched and maintain 8 web apps in daily use by friends and family; scope each release from user feedback.}{Ongoing}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {MSc in Artificial Intelligence \& Language Technology}{Sep 2025 -- Feb 2027 (expected)}
+      {University of the Basque Country (UPV/EHU)}{Donostia, Spain}
+      \resumeItemListStart
+        \resumeItem{Coursework completed; top grades in Automated Reasoning (10/10), Research Methods for NLP (10/10), Deep Learning (9.5/10) and NLP Applications (9.2/10).}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Double Degree: BSc in Physics and BEng in Electronic Engineering}{Sep 2020 -- Jun 2026}
+      {University of the Basque Country (UPV/EHU), GPA 7.64/10}{Leioa, Spain}
+      \resumeItemListStart
+        \resumeItem{Relevant coursework: \textit{Business and Projects}: WBS, Gantt charts, critical path method, cost and resource estimation, feasibility and risk analysis.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Project and Product Management Courses}{Oct 2026 -- Present}
+      {Continuing training alongside the MSc}{Online / Bilbao}
+      \resumeItemListStart
+        \resumeItem{PMI Kickoff project-management course (completed Oct 2026): project charter, risk worksheet, status reporting and closure.}
+        \resumeItem{Digital Product Manager (Gestor de Producto Digital), 150 h, Bilbao, in progress.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Project management}{: scope and WBS, scheduling (Gantt, critical path), budgeting, fundraising and sponsorship, risk management, stakeholder management, progress reporting} \\
+     \textbf{Tools}{: Notion, Google Workspace, Excel, Microsoft Office, Git/GitHub, LaTeX, Python, MATLAB} \\
+     \textbf{Languages}{: English (C2, CPE), Spanish (native), Basque (native, HABE C1), Catalan (basic)} $|$ \textbf{Driving licence}{: B, own car}
+    }}
+ \end{itemize}
+
+\end{document}
