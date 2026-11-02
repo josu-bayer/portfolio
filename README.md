@@ -36,8 +36,14 @@ Associations and events run alongside a double degree, all with student teams.
 Web apps I built and use daily with friends and family. Each is an installable web app on Firebase, in a single file with no build step.
 
 - **[Ascension System](https://github.com/josu-bayer/ascension-system).** A workout and habit tracker where daily routines level up an avatar. [Live](https://solo-leveling-fdd0f.web.app).
+- **[Sutelagun](https://github.com/josu-bayer/sutelagun).** Recipes that remember every attempt and what changed between them, with a 28-day diet plan.
+- **[Zerrenda](https://github.com/josu-bayer/zerrenda).** Shared shopping lists, generated from the recipe app.
+- **[Poltsiko Begie](https://github.com/josu-bayer/poltsiko-begie).** An expense tracker with two ledgers and shared-cost splitting.
+- **[Begi Luze](https://github.com/josu-bayer/begi-luze).** An investment tracker with FIFO cost basis across platforms and a tax table.
+- **[Mus Tracker](https://github.com/josu-bayer/mus-tracker).** A tournament log and statistics for the Basque card game mus.
+- **[Egutegie](https://github.com/josu-bayer/egutegie).** A personal calendar with rolling cycles, app layers and email reminders.
 
-The other apps (a recipe tracker, a shared shopping list, an expense tracker, an investment tracker, a tournament log and a personal calendar) are being prepared for publication with sample data in place of personal data.
+Apart from Ascension, the apps ship with placeholder Firebase settings and sample data, so each needs your own Firebase project. Their rules are open, as in the original single-user deployments, so add sign-in before storing anything private.
 
 ## This site
 
