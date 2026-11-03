@@ -149,7 +149,7 @@ T = {
         self_href="./", sentence="Josu Bayer, physicist and electronic engineer from Bizkaia.", h1=("I manage projects", "and build with AI."),
         h_about="About", h_work="Work", h_bg="Background", h_contact="Contact",
         about=[
-            "<mark class=\"hl3\">I'm Josu Bayer</mark>, a physicist and electronic engineer from <mark class=\"hl2\">Bizkaia</mark>, working in <mark class=\"hl1\">project management</mark>. I did a double degree at UPV/EHU and then a <mark class=\"hl1\">master's in AI and language technology</mark>. I co-directed <mark class=\"hl2\">ENEF 2025</mark>, a national congress for 200 physics students, and raised <mark class=\"hl1\">more than €80,000</mark> for it. The apps below are ones I built and use."
+            "<mark class=\"hl3\">I'm Josu Bayer</mark>, a physicist and electronic engineer from <mark class=\"hl2\">Bizkaia</mark>. I did a double degree at UPV/EHU and then a <mark class=\"hl1\">master's in AI and language technology</mark>. I am into <mark class=\"hl1\">project management</mark>, and I co-directed <mark class=\"hl2\">ENEF 2025</mark>, a national congress for 200 physics students, and raised <mark class=\"hl1\">more than €80,000</mark> for it. The apps below are ones I built and use."
         ],
         about_cta="Need a project manager who also understands AI? Say hello.",
         chips=[("all", "Everything"), ("m", "Leading"), ("a", "AI and research"), ("p", "Apps")],
@@ -173,7 +173,7 @@ T = {
         self_href="./", sentence="Josu Bayer, Bizkaiko fisikaria eta ingeniari elektronikoa.", h1=("Proiektuak kudeatu", "eta AArekin eraiki"),
         h_about="Niri buruz", h_work="Lana", h_bg="Ibilbidea", h_contact="Harremana",
         about=[
-            "<mark class=\"hl3\">Josu Bayer naiz</mark>, <mark class=\"hl2\">Bizkaiko</mark> fisikaria eta ingeniari elektronikoa, <mark class=\"hl1\">proiektuen kudeaketan</mark> dabilena. UPV/EHUn ikasketa bikoitza egin nuen, eta gero <mark class=\"hl1\">AAko eta hizkuntza-teknologiako masterra</mark>. <mark class=\"hl2\">ENEF 2025</mark> zuzendu nuen, 200 fisika-ikasleren kongresu nazionala, eta <mark class=\"hl1\">80.000 € baino gehiago</mark> lortu genituen. Behekoak neuk egin eta erabiltzen ditudan aplikazioak dira."
+            "<mark class=\"hl3\">Josu Bayer naiz</mark>, <mark class=\"hl2\">Bizkaiko</mark> fisikaria eta ingeniari elektronikoa. UPV/EHUn ikasketa bikoitza egin nuen, eta gero <mark class=\"hl1\">AAko eta hizkuntza-teknologiako masterra</mark>. <mark class=\"hl1\">Proiektuen kudeaketan</mark> nabil, eta <mark class=\"hl2\">ENEF 2025</mark> zuzendu nuen, 200 fisika-ikasleren kongresu nazionala, eta <mark class=\"hl1\">80.000 € baino gehiago</mark> lortu genituen. Behekoak neuk egin eta erabiltzen ditudan aplikazioak dira."
         ],
         about_cta="AA ere ulertzen duen proiektu-kudeatzailea behar al duzu? Esan kaixo.",
         chips=[("all", "Dena"), ("m", "Zuzendaritza"), ("a", "AA eta ikerketa"), ("p", "Aplikazioak")],
