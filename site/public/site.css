@@ -114,7 +114,7 @@ mark{color:var(--ink);padding:0 .1em;-webkit-box-decoration-break:clone;box-deco
 .crow.r2{background:var(--surface)}
 a.crow:hover{padding-left:calc(var(--m) + 20px)}
 .crow span{display:block;min-width:0;overflow-wrap:anywhere}
-.face{width:clamp(72px,9vw,128px);aspect-ratio:1;object-fit:cover;object-position:50% 50%;border-radius:50%;align-self:center;filter:grayscale(.2)}
+.face{width:clamp(72px,9vw,128px);aspect-ratio:1;object-fit:cover;object-position:50% 50%;border-radius:50%;align-self:center}
 .greet{background:var(--accent);color:var(--accent-ink);justify-content:flex-start;align-items:center;gap:.4em;padding-bottom:0}
 .greet .go{display:inline-grid;place-items:center;width:.9em;height:.9em;border-radius:50%;background:var(--accent-ink);color:var(--accent);padding:.18em;flex:none;transition:transform .35s var(--ease)}
 a.greet:hover .go{transform:translateX(14px)}
