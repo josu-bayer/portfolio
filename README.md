@@ -42,6 +42,7 @@ Web apps I built and use daily with friends and family. Each is an installable w
 - **[Begi Luze](https://github.com/josu-bayer/begi-luze).** An investment tracker with FIFO cost basis across platforms and a tax table.
 - **[Mus Tracker](https://github.com/josu-bayer/mus-tracker).** A tournament log and statistics for the Basque card game mus.
 - **[Egutegie](https://github.com/josu-bayer/egutegie).** A personal calendar with rolling cycles, app layers and email reminders.
+- **[Entzungela](https://github.com/josu-bayer/entzungela).** Turns a book PDF into Spanish audio chapters, with an offline phone player that keeps your place. No books included.
 
 Apart from Ascension, the apps ship with placeholder Firebase settings and sample data, so each needs your own Firebase project. Their rules are open, as in the original single-user deployments, so add sign-in before storing anything private.
 

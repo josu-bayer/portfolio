@@ -90,6 +90,11 @@ ROWS = [
              "A personal calendar with rolling cycles and email reminders."),
          eu=("Egutegie", "Web aplikazioa", "Zikloak",
              "Egutegi pertsonala, ziklo mugikorrekin eta posta bidezko gogorarazpenekin.")),
+    dict(id="entzungela", t="p", repo="entzungela", year="2026",
+         en=("Entzungela", "Web app and tool", "Audio",
+             "Turns a book PDF into Spanish audio chapters and plays them offline on a phone."),
+         eu=("Entzungela", "Web aplikazioa eta tresna", "Audioa",
+             "Liburu baten PDFa gaztelaniazko audio-kapituluetan bihurtzen du, eta mugikorrean konexiorik gabe erreproduzitzen.")),
 ]
 
 # group, then rows of (item, format, place, years)
