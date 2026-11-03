@@ -121,7 +121,7 @@ BACKGROUND = {
     ],
     "eu": [
         ("Ikasketak", [
-            ("IA eta Hizkuntzaren Teknologia", "Masterra", "UPV/EHU, Donostia", "2025–27"),
+            ("AA eta Hizkuntzaren Teknologia", "Masterra", "UPV/EHU, Donostia", "2025–27"),
             ("Fisika eta Ingeniaritza Elektronikoa", "Ikasketa bikoitza", "UPV/EHU, Leioa", "2020–26"),
             ("Talentia Skills", "Programa", "Eusko Jaurlaritza", "2021–24"),
             ("PMI Kickoff", "Ikastaroa", "PMI", "2026"),
@@ -167,18 +167,18 @@ T = {
         email_subject="Hello Josu",
     ),
     "eu": dict(
-        lang="eu", title="Josu Bayer, proiektuak kudeatzen eta IArekin eraikitzen duen fisikaria eta ingeniaria",
+        lang="eu", title="Josu Bayer, proiektuak kudeatzen eta AArekin eraikitzen duen fisikaria eta ingeniaria",
         desc="Bizkaiko fisikaria eta ingeniari elektronikoa. Zuzendutako proiektuak, ikerketa eta aplikazio txikiak.",
         skip="Joan edukira", hello="Esan kaixo", other_lang="English", other_href="../",
-        self_href="./", sentence="Josu Bayer, Bizkaiko fisikaria eta ingeniari elektronikoa.", h1=("Proiektuak kudeatu", "eta IArekin eraiki"),
+        self_href="./", sentence="Josu Bayer, Bizkaiko fisikaria eta ingeniari elektronikoa.", h1=("Proiektuak kudeatu", "eta AArekin eraiki"),
         h_about="Niri buruz", h_work="Lana", h_bg="Ibilbidea", h_contact="Harremana",
         about=[
-            "<mark class=\"hl3\">Josu Bayer naiz</mark>, <mark class=\"hl2\">Bizkaiko</mark> fisikaria eta ingeniari elektronikoa, <mark class=\"hl1\">proiektuen kudeaketan</mark> dabilena. UPV/EHUn ikasketa bikoitza egin nuen, eta gero <mark class=\"hl1\">IAko eta hizkuntza-teknologiako masterra</mark>. <mark class=\"hl2\">ENEF 2025</mark> zuzendu nuen, 200 fisika-ikasleren kongresu nazionala, eta <mark class=\"hl1\">80.000 € baino gehiago</mark> lortu genituen. Behekoak neuk egin eta erabiltzen ditudan aplikazioak dira."
+            "<mark class=\"hl3\">Josu Bayer naiz</mark>, <mark class=\"hl2\">Bizkaiko</mark> fisikaria eta ingeniari elektronikoa, <mark class=\"hl1\">proiektuen kudeaketan</mark> dabilena. UPV/EHUn ikasketa bikoitza egin nuen, eta gero <mark class=\"hl1\">AAko eta hizkuntza-teknologiako masterra</mark>. <mark class=\"hl2\">ENEF 2025</mark> zuzendu nuen, 200 fisika-ikasleren kongresu nazionala, eta <mark class=\"hl1\">80.000 € baino gehiago</mark> lortu genituen. Behekoak neuk egin eta erabiltzen ditudan aplikazioak dira."
         ],
-        about_cta="IA ere ulertzen duen proiektu-kudeatzailea behar al duzu? Esan kaixo.",
-        chips=[("all", "Dena"), ("m", "Zuzendaritza"), ("a", "IA eta ikerketa"), ("p", "Aplikazioak")],
+        about_cta="AA ere ulertzen duen proiektu-kudeatzailea behar al duzu? Esan kaixo.",
+        chips=[("all", "Dena"), ("m", "Zuzendaritza"), ("a", "AA eta ikerketa"), ("p", "Aplikazioak")],
         view_repo="Ireki kodea",
-        bridge_cap="Bizkaiko Zubiak, 1893an irekia, jendea itsasadarraren beste aldera eramaten du zintzilik doan gondola batean. Bi ertz lotzen ditu bata ezkutatu gabe, nik bezala, jendea kudeatzearen eta IArekin eraikitzearen artean.",
+        bridge_cap="Bizkaiko Zubiak, 1893an irekia, jendea itsasadarraren beste aldera eramaten du zintzilik doan gondola batean. Bi ertz lotzen ditu bata ezkutatu gabe, nik bezala, jendea kudeatzearen eta AArekin eraikitzearen artean.",
         repo_hint="Gezia duten errenkadek kodea GitHuben irekitzen dute.",
         ria_cap="Gaztelugatxe, Bizkaiko kostaldean.",
         butroi_cap="Butroiko gaztelua, Gatika.",
