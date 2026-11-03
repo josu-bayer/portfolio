@@ -136,7 +136,7 @@ def page(lang):
 
 <section class="contact" id="contact">
   <h2 class="sh rv">{e(t['h_contact'])}</h2>
-  <div class="crow r1 rv"><span>{e(cr[0])}</span><img class="face" src="{A('img/josu.jpg')}" width="600" height="600" alt="{e(t['photo_alt'])}" loading="lazy" decoding="async"></div>
+  <div class="crow r1 rv"><span>{e(cr[0])}</span><img class="face" src="{A('img/josu-2026-11.jpg')}" width="600" height="600" alt="{e(t['photo_alt'])}" loading="lazy" decoding="async"></div>
   <a class="crow r2 rv" href="mailto:{EMAIL}"><span>{EMAIL}</span></a>
   <a class="crow r1 rv" href="{LINKEDIN}" rel="me noopener"><span>{e(cr[2])}</span></a>
   <a class="crow r2 rv" href="{GITHUB}" rel="me noopener"><span>{e(cr[3])}</span></a>
