@@ -69,10 +69,8 @@ def page(lang):
 <body>
 <a class="skip" href="#about">{e(t['skip'])}</a>
 
-<header class="hero" id="top">
-  <div class="field" aria-hidden="true"></div>
-  <h1 class="hl top" aria-label="{e(' '.join(t['h1']))}"><span class="ln"><span>{e(t['h1'][0])}</span></span><span class="ln"><span>{e(t['h1'][1])}</span></span></h1>
-  <div class="hl low" aria-hidden="true"><span class="ln"><span data-w="{e(t['h1'][0])}"></span></span><span class="ln"><span data-w="{e(t['h1'][1])}"></span></span></div>
+<header class="top" id="top">
+  <h1 class="vh">{e(t['title'])}</h1>
   <div class="bar">
     <a class="mark" href="#top">Josu Bayer</a>
     <div class="bar-r">
@@ -80,7 +78,6 @@ def page(lang):
       <a class="btn" href="{mailto}">{e(t['hello'])}</a>
     </div>
   </div>
-  <p class="sentence">{e(t['sentence'])}</p>
 </header>
 
 <main>
