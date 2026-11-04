@@ -26,7 +26,7 @@ Associations and events run alongside a double degree, all with student teams.
 
 ## Research and data
 
-- **[market-study](https://github.com/josu-bayer/market-study).** Can machine learning beat an MSCI World index fund? 177 pre-registered trials, a locked holdout and a documented negative result.
+- **Allocation models for investors (work in progress).** Building and testing machine-learning models that allocate investments, with the aim of offering them to investing companies. Not public.
 - **[Temperature forecasting](case-studies/temperature-forecasting.md).** Daily temperature at Bilbao Airport with LSTM, Transformer, XGBoost and random forest against a persistence baseline.
 - **[Cardiac-arrest classification](case-studies/cardiac-arrest-classification.md).** Machine learning on ECG and ballistocardiogram signals, with a validation scheme designed around single-class patients.
 - **[Research roles](case-studies/research-roles.md).** Physics-informed neural networks at BCAM, launch simulation for a student rocketry team, ballistocardiography, and language technology for psychological-risk detection.
