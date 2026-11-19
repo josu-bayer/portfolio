@@ -155,18 +155,18 @@ BACKGROUND = {
 
 T = {
     "en": dict(
-        lang="en", title="Josu Bayer, physicist and engineer who manages projects and builds with AI",
+        lang="en", title="Josu Bayer, physicist and engineer specialised in AI",
         desc="Physicist and electronic engineer from Bizkaia. Projects led, research and small apps.",
         skip="Skip to content", hello="Say hello", other_lang="Euskara", other_href="eu/",
-        self_href="./", sentence="Josu Bayer, physicist and electronic engineer from Bizkaia.", h1=("I manage projects", "and build with AI."),
+        self_href="./", sentence="Josu Bayer, physicist and electronic engineer from Bizkaia.", h1=("I research and build", "artificial intelligence."),
         h_about="About", h_work="Work", h_bg="Background", h_contact="Contact",
         about=[
             "<mark class=\"hl3\">I'm Josu Bayer</mark>, a physicist and electronic engineer from <mark class=\"hl2\">Bizkaia</mark>. I did a double degree at UPV/EHU and then a <mark class=\"hl1\">master's in AI and language technology</mark>. I am into <mark class=\"hl1\">project management</mark>, and I co-directed <mark class=\"hl2\">ENEF 2025</mark>, a national congress for 200 physics students, and raised <mark class=\"hl1\">more than €80,000</mark> for it. The apps below are ones I built and use."
         ],
-        about_cta="Need a project manager who also understands AI? Say hello.",
+        about_cta="Looking for someone who knows AI and can lead the project too? Say hello.",
         chips=[("all", "Everything"), ("m", "Leading"), ("a", "AI and research"), ("p", "Apps")],
         view_repo="Open the code",
-        bridge_cap="The Bizkaia Bridge, opened in 1893, carries people across the estuary on a hanging gondola. It joins two banks without hiding either, the way I work between managing people and building with AI.",
+        bridge_cap="The Bizkaia Bridge, opened in 1893, carries people across the estuary on a hanging gondola. It joins two banks without hiding either, the way I work between leading people and building AI.",
         repo_hint="Rows marked with an arrow open the code on GitHub.",
         ria_cap="Gaztelugatxe, on the Bizkaia coast.",
         butroi_cap="Butroi castle, Gatika.",
@@ -179,18 +179,18 @@ T = {
         email_subject="Hello Josu",
     ),
     "eu": dict(
-        lang="eu", title="Josu Bayer, proiektuak kudeatzen eta AArekin eraikitzen duen fisikaria eta ingeniaria",
+        lang="eu", title="Josu Bayer, AAn espezializatutako fisikaria eta ingeniaria",
         desc="Bizkaiko fisikaria eta ingeniari elektronikoa. Zuzendutako proiektuak, ikerketa eta aplikazio txikiak.",
         skip="Joan edukira", hello="Esan kaixo", other_lang="English", other_href="../",
-        self_href="./", sentence="Josu Bayer, Bizkaiko fisikaria eta ingeniari elektronikoa.", h1=("Proiektuak kudeatu", "eta AArekin eraiki"),
+        self_href="./", sentence="Josu Bayer, Bizkaiko fisikaria eta ingeniari elektronikoa.", h1=("AA ikertzen", "eta eraikitzen dut"),
         h_about="Niri buruz", h_work="Lana", h_bg="Ibilbidea", h_contact="Harremana",
         about=[
             "<mark class=\"hl3\">Josu Bayer naiz</mark>, <mark class=\"hl2\">Bizkaiko</mark> fisikaria eta ingeniari elektronikoa. UPV/EHUn ikasketa bikoitza egin nuen, eta gero <mark class=\"hl1\">AAko eta hizkuntza-teknologiako masterra</mark>. <mark class=\"hl1\">Proiektuen kudeaketan</mark> nabil, eta <mark class=\"hl2\">ENEF 2025</mark> zuzendu nuen, 200 fisika-ikasleren kongresu nazionala, eta <mark class=\"hl1\">80.000 € baino gehiago</mark> lortu genituen. Behekoak neuk egin eta erabiltzen ditudan aplikazioak dira."
         ],
-        about_cta="AA ere ulertzen duen proiektu-kudeatzailea behar al duzu? Esan kaixo.",
+        about_cta="AA ezagutzen duen eta proiektua ere zuzendu dezakeen norbait behar al duzu? Esan kaixo.",
         chips=[("all", "Dena"), ("m", "Zuzendaritza"), ("a", "AA eta ikerketa"), ("p", "Aplikazioak")],
         view_repo="Ireki kodea",
-        bridge_cap="Bizkaiko Zubiak, 1893an irekia, jendea itsasadarraren beste aldera eramaten du zintzilik doan gondola batean. Bi ertz lotzen ditu bata ezkutatu gabe, nik bezala, jendea kudeatzearen eta AArekin eraikitzearen artean.",
+        bridge_cap="Bizkaiko Zubiak, 1893an irekia, jendea itsasadarraren beste aldera eramaten du zintzilik doan gondola batean. Bi ertz lotzen ditu bata ezkutatu gabe, nik bezala, jendea zuzentzearen eta AA eraikitzearen artean.",
         repo_hint="Gezia duten errenkadek kodea GitHuben irekitzen dute.",
         ria_cap="Gaztelugatxe, Bizkaiko kostaldean.",
         butroi_cap="Butroiko gaztelua, Gatika.",
@@ -275,18 +275,18 @@ BACKGROUND["es"] = [
 ]
 
 T["es"] = dict(
-    lang="es", title="Josu Bayer, físico e ingeniero que gestiona proyectos y construye con IA",
+    lang="es", title="Josu Bayer, físico e ingeniero especializado en IA",
     desc="Físico e ingeniero electrónico de Bizkaia. Proyectos liderados, investigación y pequeñas aplicaciones.",
     skip="Saltar al contenido", hello="Saluda", other_lang="Castellano", other_href="es/",
-    self_href="./", sentence="Josu Bayer, físico e ingeniero electrónico de Bizkaia.", h1=("Gestiono proyectos", "y construyo con IA."),
+    self_href="./", sentence="Josu Bayer, físico e ingeniero electrónico de Bizkaia.", h1=("Investigo y construyo", "inteligencia artificial."),
     h_about="Sobre mí", h_work="Trabajo", h_bg="Trayectoria", h_contact="Contacto",
     about=[
         "<mark class=\"hl3\">Soy Josu Bayer</mark>, físico e ingeniero electrónico de <mark class=\"hl2\">Bizkaia</mark>. Hice un doble grado en la UPV/EHU y después un <mark class=\"hl1\">máster en IA y tecnología del lenguaje</mark>. Me dedico a la <mark class=\"hl1\">gestión de proyectos</mark>, y codirigí <mark class=\"hl2\">ENEF 2025</mark>, un congreso nacional para 200 estudiantes de física, para el que conseguí <mark class=\"hl1\">más de 80.000 €</mark>. Las aplicaciones de abajo las he construido yo y las uso."
     ],
-    about_cta="¿Necesitas un gestor de proyectos que además entienda de IA? Saluda.",
+    about_cta="¿Buscas a alguien que sepa de IA y pueda dirigir también el proyecto? Saluda.",
     chips=[("all", "Todo"), ("m", "Liderazgo"), ("a", "IA e investigación"), ("p", "Aplicaciones")],
     view_repo="Abrir el código",
-    bridge_cap="El Puente de Bizkaia, inaugurado en 1893, cruza a la gente por la ría en una góndola colgante. Une dos orillas sin ocultar ninguna, como yo trabajo entre gestionar personas y construir con IA.",
+    bridge_cap="El Puente de Bizkaia, inaugurado en 1893, cruza a la gente por la ría en una góndola colgante. Une dos orillas sin ocultar ninguna, como yo trabajo entre dirigir personas y construir IA.",
     repo_hint="Las filas con flecha abren el código en GitHub.",
     ria_cap="Gaztelugatxe, en la costa de Bizkaia.",
     butroi_cap="Castillo de Butrón, Gatika.",
@@ -327,15 +327,15 @@ SCREENS = [
 
 EXTRA = {
     "en": dict(h_screens="The apps, as they open on a phone", og_locale="en_GB",
-               og_title="Josu Bayer, project manager who builds with AI",
-               job="Project manager, physicist and electronic engineer", screens_label="App screens, scroll sideways"),
+               og_title="Josu Bayer, physicist and engineer specialised in AI",
+               job="Physicist and electronic engineer, master's in AI", screens_label="App screens, scroll sideways"),
     "eu": dict(h_screens="Aplikazioak, mugikorrean irekitzean", og_locale="eu_ES",
-               og_title="Josu Bayer, AArekin eraikitzen duen proiektu-kudeatzailea",
-               job="Proiektu-kudeatzailea, fisikaria eta ingeniari elektronikoa", screens_label="Aplikazioen pantailak, alboetara korritu"),
+               og_title="Josu Bayer, AAn espezializatutako fisikaria eta ingeniaria",
+               job="Fisikaria eta ingeniari elektronikoa, AAko masterra", screens_label="Aplikazioen pantailak, alboetara korritu"),
     "es": dict(h_screens="Las aplicaciones, tal como se abren en el móvil", og_locale="es_ES",
-               og_title="Josu Bayer, gestor de proyectos que construye con IA",
-               job="Gestor de proyectos, físico e ingeniero electrónico", screens_label="Pantallas de las aplicaciones, desplaza a los lados"),
+               og_title="Josu Bayer, físico e ingeniero especializado en IA",
+               job="Físico e ingeniero electrónico, máster en IA", screens_label="Pantallas de las aplicaciones, desplaza a los lados"),
 }
 for _k, _v in EXTRA.items():
     T[_k].update(_v)
-T["eu"]["h1"] = ("Proiektuak kudeatu", "eta AArekin eraiki.")
+T["eu"]["h1"] = ("AA ikertzen", "eta eraikitzen dut.")
