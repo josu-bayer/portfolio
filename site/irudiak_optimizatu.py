@@ -44,8 +44,8 @@ def letra(n):
     except OSError:
         return ImageFont.truetype("arialbd.ttf", n)
 d.text((580, 170), "Josu Bayer", font=letra(84), fill="#e2e2e2")
-d.text((582, 290), "Project manager who", font=letra(40), fill="#a6c8c5")
-d.text((582, 342), "builds with AI", font=letra(40), fill="#a6c8c5")
+d.text((582, 290), "Physicist and engineer", font=letra(40), fill="#a6c8c5")
+d.text((582, 342), "specialised in AI", font=letra(40), fill="#a6c8c5")
 d.text((582, 520), "josu-bayer.web.app", font=letra(30), fill="#e2e2e2")
 og.save(os.path.join(IMG, "og.jpg"), "JPEG", quality=85, optimize=True, progressive=True)
 # Ikonoak: "jb" letrak kolore nagusiaren gainean (favicon.svg eskuz idatzia dago public/ karpetan)
