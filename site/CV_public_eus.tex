@@ -1,0 +1,166 @@
+%-------------------------
+% One-page PM resume, based on Jake Gutierrez's "Jake's Resume" template (MIT)
+% https://github.com/jakegut/resume
+% ATS-friendly: single column, real text, glyphtounicode
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[basque]{babel}
+\usepackage{tabularx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{XCharter}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% A4 page, tight margins
+\usepackage[a4paper, left=1.5cm, right=1.5cm, top=0.9cm, bottom=0.7cm]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Machine-readable PDF for ATS
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2.5pt}}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{3pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeLine}[2]{
+  \item
+    \begin{tabularx}{\textwidth}[t]{@{}X@{\hspace{10pt}}r@{}}
+      \small #1 & \small #2 \\
+    \end{tabularx}\vspace{-3pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in, topsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Josu Bayer Agirre} \\ \vspace{2pt}
+    {\small Proiektuen eta Entregen Kudeaketa $|$ Fisika eta Ingeniaritza Elektronikoa $|$ AAko masterra} \\ \vspace{3pt}
+    \small Bizkaia, Euskal Herria (lekualdatzeko prest) $|$
+    \href{mailto:bayer.josu@gmail.com}{bayer.josu@gmail.com} \\
+    \href{https://www.linkedin.com/in/josu-bayer-agirre-090678208/}{linkedin.com/in/josu-bayer-agirre-090678208}
+\end{center}
+\vspace{-6pt}
+
+\section{Laburpena}
+\small{Fisikaria eta ingeniari elektronikoa, Adimen Artifizialeko eta Hizkuntzaren Teknologiako masterrarekin (Master Amaierako Lana osatuta, defentsa 2027ko otsailean), eta irabazi asmorik gabeko erakundeetan hiru urteko proiektu-zuzendaritzarekin: 200 lagunen kongresu nazional bat kozuzendu zuen, finantza-batzordea bere kargu zuela, eta \textbf{30 bat babesleren 80.000 €-tik gora} lortu zituen; urteko \textbf{12 ekitaldi baino gehiagoko} egitaraua ere kudeatu zuen. EDT, Gantt, bide kritiko eta arriskuen kudeaketan trebatua. Ingelesa C2; gaztelania eta euskara ama-hizkuntza. Berehala eskuragarri.}
+\vspace{-2pt}
+
+\section{Proiektu-zuzendaritzako esperientzia}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Antolakuntzaren zuzendarikidea eta Finantzen eta Finantziazioaren arduraduna}{2024ko ira. -- 2025eko abu.}
+      {ENEF 2025, Fisikako Ikasleen Kongresu Nazionala}{Euskal Herria}
+      \resumeItemListStart
+        \resumeItem{\textbf{30 bat enpresa eta erakunde publikotik 80.000 €-tik gora} lortu zituen, proiektu-proposamena eta babes-dosierrak idatziz eta kontaktuak sinatutako akordioetaraino eramanez, eta horrek \textbf{200 bat ikaslerekin} egindako 5 eguneko kongresua osorik finantzatu zuen.}
+        \resumeItem{\textbf{20 pertsona baino gehiagoko antolakuntza-taldea} kozuzendu zuen, bi arduradunetako bat izanik, eta \textbf{6 lagunen finantza-batzordearen} ardura bakarra izan zuen; ostatu, areto eta jardueretarako gastu-plana prestatu zuen.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Idazkaria eta batzordekidea}{2022ko ira. -- 2025eko ira.}
+      {ZIMATEK, Fisika eta Ingeniaritza Elektronikoko Ikasleen Elkartea (UPV/EHU)}{Leioa, Euskal Herria}
+      \resumeItemListStart
+        \resumeItem{Urteko \textbf{12 lehiaketa eta hitzaldi baino gehiagoko} egitaraua burutu zuen batzordetik (ekitaldiko 60 bat lagun, gehienez 200), ikasketa bikoitza lanaldi osoan egiten zuen bitartean.}
+        \resumeItem{LaTeX ikastaroak diseinatu eta saldu zituen \textbf{100 lagun baino gehiagori}, Ikerlaneko langileei barne, eta elkarteak \textbf{3.700 €} lortu zituen.}
+        \resumeItem{Urteko aurrekontua diruzain eta lehendakariarekin batera kudeatu zuen.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Sortzailekidea eta idazkaria}{2023ko urr. -- 2025eko ira.}
+      {RSEFeko Ikasle Taldea, UPV/EHUko ordezkaritza}{Leioa, Euskal Herria}
+      \resumeItemListStart
+        \resumeItem{Ordezkaritza zerotik abiarazi zuen eta fisika-lehiaketa nazionalen fase lokalak antolatu zituen, 2025eko Euskadiko Fisika Olinpiada barne: azterketak, zaintza eta parte-hartzaileen logistika.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Koordinatzailekidea, zientzia-dibulgazioa ikastetxeetan}{2023ko api. -- gaur arte}
+      {Talde independentea, lehen ZIMATEKen barruan}{Bizkaia, Euskal Herria}
+      \resumeItemListStart
+        \resumeItem{Ikastetxe batzuetan esperimentu-tailerrak egiten dituen \textbf{4 lagunen taldea} koordinatzen du: ikastetxeekiko harremana, material-aurrekontua, aktak eta zereginen jarraipena.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Ikerketa eta esperientzia teknikoa}
+  \resumeSubHeadingListStart
+    \resumeLine{\textbf{Ikerketa-praktikak, IXA taldea, HPak (UPV/EHU)}: osasun mentaleko arriskua goiz detektatzeko HPko ereduak (IberLEF).}{2025eko aza. -- gaur arte}
+    \resumeLine{\textbf{Ikerketa-praktikak, BioRes taldea (UPV/EHU)}: BCG seinaleetatik bihotz-irteera kalkulatzeko ikasketa automatikoko ereduak MATLABen.}{2024ko ira. -- 2026ko eka.}
+    \resumeLine{\textbf{Ikerketa-praktikak, BCAM}: energia berriztagarrien simulaziorako fisikak informatutako sare neuronalak.}{2024ko abu. -- urr.}
+    \resumeLine{\textbf{Simulazio-praktikak, Bisky Team (ikasleen suziri-taldea)}: benetako bi jaurtiketaren arriskua murrizteko simulazioak.}{2023ko ira. -- 2024ko ira.}
+    \resumeLine{\textbf{Product Owner, proiektu pertsonalak}: lagun eta familiak egunero erabiltzen dituzten 8 web aplikazio abiarazi ditut eta mantentzen ditut; irismena haien iruzkinetatik definitzen dut.}{Etengabe}
+  \resumeSubHeadingListEnd
+
+\section{Prestakuntza}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Adimen Artifizialeko eta Hizkuntzaren Teknologiako Masterra}{2025eko ira. -- 2027ko ots. (aurreikusia)}
+      {Euskal Herriko Unibertsitatea (UPV/EHU)}{Donostia, Euskal Herria}
+      \resumeItemListStart
+        \resumeItem{Ikasgaiak amaituta; nota gorenak Arrazoibide Automatikoan (10/10), HPrako Ikerketa Metodoetan (10/10), Ikasketa Sakonean (9,5/10) eta HPren Aplikazioetan (9,2/10).}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Ikasketa bikoitza: Fisika eta Ingeniaritza Elektronikoa}{2020ko ira. -- 2026ko eka.}
+      {Euskal Herriko Unibertsitatea (UPV/EHU), batez besteko nota 7,64/10}{Leioa, Euskal Herria}
+      \resumeItemListStart
+        \resumeItem{Ikasgai garrantzitsua: \textit{Enpresa eta Proiektuak}: EDT, Gantt diagramak, bide kritikoaren metodoa, kostu eta baliabideen kalkulua, bideragarritasun- eta arrisku-analisia.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Proiektuen eta produktuaren kudeaketa-ikastaroak}{2026ko urr. -- gaur arte}
+      {Masterrarekin batera egindako etengabeko prestakuntza}{Online / Bilbo}
+      \resumeItemListStart
+        \resumeItem{PMI Kickoff proiektu-kudeaketako ikastaroa (2026ko urrian amaitua): proiektuaren gutuna, arrisku-orria, egoera-txostenak eta itxiera.}
+        \resumeItem{Produktu Digitalaren Kudeatzailea, 150 ordu, Bilbo, egiten.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Gaitasunak}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Proiektu-kudeaketa}{: irismena eta EDT, planifikazioa (Gantt, bide kritikoa), aurrekontuak, funtsen bilketa eta babesletza, arriskuen kudeaketa, interes-taldeen kudeaketa, jarraipen-txostenak} \\
+     \textbf{Tresnak}{: Notion, Google Workspace, Excel, Microsoft Office, Git/GitHub, LaTeX, Python, MATLAB} \\
+     \textbf{Hizkuntzak}{: ingelesa (C2, CPE), gaztelania (ama-hizkuntza), euskara (ama-hizkuntza, HABE C1), katalana (oinarrizkoa)} $|$ \textbf{Gidabaimena}{: B, kotxe propioa}
+    }}
+ \end{itemize}
+
+\end{document}

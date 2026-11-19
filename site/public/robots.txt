@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://josu-bayer.web.app/sitemap.xml

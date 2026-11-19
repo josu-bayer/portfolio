@@ -16,9 +16,9 @@ ROWS = [
          eu=("Zientzia ikastetxeetan", "Koordinatzailea", "4",
              "Pertsonako taldea, Bizkaiko ikastetxeetara esperimentu praktikoak eramaten.")),
     dict(id="zimatek", t="m", repo=None, year="2022–25",
-         en=("ZIMATEK", "Secretary, board of four", "12+",
+         en=("ZIMATEK", "Secretary and board member", "12+",
              "Contests and talks a year for physics and electronics students, run alongside the double degree."),
-         eu=("ZIMATEK", "Idazkaria, lau pertsonako batzordea", "12+",
+         eu=("ZIMATEK", "Idazkaria eta batzordekidea", "12+",
              "Lehiaketa eta hitzaldi urtean fisika eta elektronika ikasleentzat, ikasketa bikoitzarekin batera antolatuak.")),
     dict(id="rsef", t="m", repo=None, year="2023–25",
          en=("RSEF student group", "Co-founder and secretary", "From zero",
@@ -92,9 +92,9 @@ ROWS = [
              "Egutegi pertsonala, ziklo mugikorrekin eta posta bidezko gogorarazpenekin.")),
     dict(id="entzungela", t="p", repo="entzungela", year="2026",
          en=("Entzungela", "Web app and tool", "Audio",
-             "Turns a book PDF into Spanish audio chapters and plays them offline on a phone."),
+             "Turns a book PDF into audio chapters and plays them offline on a phone."),
          eu=("Entzungela", "Web aplikazioa eta tresna", "Audioa",
-             "Liburu baten PDFa gaztelaniazko audio-kapituluetan bihurtzen du, eta mugikorrean konexiorik gabe erreproduzitzen.")),
+             "Liburu baten PDFa audio-kapituluetan bihurtzen du, eta mugikorrean konexiorik gabe erreproduzitzen.")),
 ]
 
 # group, then rows of (item, format, place, years)
@@ -111,6 +111,12 @@ BACKGROUND = {
             ("Ballistocardiography", "Internship", "BioRes group, UPV/EHU", "2024–26"),
             ("Physics-informed networks", "Internship", "BCAM, Bilbao", "2024"),
             ("Rocket simulation", "Team member", "Bisky Team, UPV/EHU", "2023–24"),
+        ]),
+        ("Leadership", [
+            ("ENEF 2025, national physics students' congress", "Co-director, finance lead", "Euskadi", "2024–25"),
+            ("ZIMATEK, physics and electronics students' association", "Secretary, board member", "UPV/EHU, Leioa", "2022–25"),
+            ("RSEF student group", "Co-founder, secretary", "UPV/EHU", "2023–25"),
+            ("School science outreach", "Co-coordinator", "Bizkaia", "2023–"),
         ]),
         ("Teaching and mentoring", [
             ("Physics and maths", "Private tutor", "Bilbao", "2022–"),
@@ -131,6 +137,12 @@ BACKGROUND = {
             ("Balistokardiografia", "Praktikak", "BioRes taldea, UPV/EHU", "2024–26"),
             ("Fisikak informatutako sareak", "Praktikak", "BCAM, Bilbo", "2024"),
             ("Suziri-simulazioa", "Taldekidea", "Bisky Team, UPV/EHU", "2023–24"),
+        ]),
+        ("Lidergoa", [
+            ("ENEF 2025, fisikako ikasleen estatu mailako kongresua", "Zuzendarikidea, finantzak", "Euskadi", "2024–25"),
+            ("ZIMATEK, fisika eta elektronikako ikasleen elkartea", "Idazkaria, batzordekidea", "UPV/EHU, Leioa", "2022–25"),
+            ("RSEFeko ikasle-taldea", "Sortzailekidea, idazkaria", "UPV/EHU", "2023–25"),
+            ("Eskoletako zientzia-dibulgazioa", "Koordinatzailekidea", "Bizkaia", "2023–"),
         ]),
         ("Irakaskuntza eta mentoretza", [
             ("Fisika eta matematika", "Irakasle partikularra", "Bilbo", "2022–"),
@@ -191,3 +203,139 @@ T = {
         email_subject="Kaixo Josu",
     ),
 }
+
+
+# ---------------------------------------------------------------- Spanish
+ES_ROWS = {
+    "enef": ("ENEF 2025", "Codirector y responsable de finanzas", "80 k€+",
+             "Obtenidos de unas treinta empresas e instituciones públicas para financiar un congreso nacional de cinco días con 200 estudiantes de física."),
+    "outreach": ("Divulgación científica en colegios", "Cocoordinador", "4",
+                 "Personas en el equipo que lleva experimentos prácticos a colegios de Bizkaia."),
+    "zimatek": ("ZIMATEK", "Secretario y miembro de la junta", "12+",
+                "Concursos y charlas al año para estudiantes de física y electrónica, organizados a la vez que el doble grado."),
+    "rsef": ("Grupo estudiantil de la RSEF", "Cofundador y secretario", "Desde cero",
+             "Puso en marcha la delegación de la universidad y organizó las fases locales de competiciones nacionales de física."),
+    "pmi": ("PMI Kickoff", "Curso y acta de constitución", "Acta",
+            "Acta de constitución, registro de riesgos e informes de estado de un proyecto de práctica."),
+    "market": ("Modelos de asignación para inversores", "En curso", "En curso",
+               "Desarrollo y prueba de modelos de aprendizaje automático que asignan inversiones, con el objetivo de ofrecerlos a empresas de inversión."),
+    "ixa": ("Tecnología del lenguaje", "Beca de investigación, grupo IXA", "IXA",
+            "Modelos que leen texto de redes sociales para detectar signos tempranos de riesgo psicológico."),
+    "bcam": ("BCAM", "Prácticas de investigación", "PINNs",
+             "Redes neuronales informadas por la física que simulan el movimiento del agua para energías renovables."),
+    "biores": ("Grupo BioRes", "Prácticas de investigación", "BCG",
+               "Aprendizaje automático en MATLAB para estimar el gasto cardíaco a partir de señales de balistocardiograma."),
+    "bisky": ("Bisky Team", "Control y simulación", "2 lanzamientos",
+              "Simulaciones de lanzamiento en Python antes de dos lanzamientos reales de cohetes suborbitales."),
+    "ascension": ("Ascension System", "Aplicación web", "Rachas",
+                  "Un seguidor de hábitos donde las rutinas diarias suben de nivel a un avatar."),
+    "sutelagun": ("Sutelagun", "Aplicación web", "Versiones",
+                  "Recetas que recuerdan cada intento y lo que cambió entre ellos."),
+    "zerrenda": ("Zerrenda", "Aplicación web", "Compartida",
+                 "Listas de la compra compartidas en vivo y generadas desde la aplicación de recetas."),
+    "pb": ("Poltsiko Begie", "Aplicación web", "Reparto",
+           "Un seguidor de gastos con dos libros y reparto de gastos compartidos."),
+    "bl": ("Begi Luze", "Aplicación web", "FIFO",
+           "Un seguidor de inversiones con coste FIFO entre plataformas y una tabla para la declaración de la renta."),
+    "mus": ("Mus Tracker", "Aplicación web", "Datos",
+            "Registro de torneos y estadísticas del juego de cartas vasco mus."),
+    "egutegie": ("Egutegie", "Aplicación web", "Ciclos",
+                 "Un calendario personal con ciclos rotativos y recordatorios por correo."),
+    "entzungela": ("Entzungela", "Aplicación web y herramienta", "Audio",
+                   "Convierte el PDF de un libro en capítulos de audio y los reproduce sin conexión en el móvil."),
+}
+for _r in ROWS:
+    _r["es"] = ES_ROWS[_r["id"]]
+
+BACKGROUND["es"] = [
+    ("Estudios", [
+        ("Máster en IA y Tecnología del Lenguaje", "Máster", "UPV/EHU, Donostia", "2025–27"),
+        ("Física e Ingeniería Electrónica", "Doble grado", "UPV/EHU, Leioa", "2020–26"),
+        ("Talentia Skills", "Programa", "Gobierno Vasco", "2021–24"),
+        ("PMI Kickoff", "Curso", "PMI", "2026"),
+    ]),
+    ("Investigación", [
+        ("Tecnología del lenguaje", "Beca de investigación", "Grupo IXA, UPV/EHU", "2025–26"),
+        ("Balistocardiografía", "Prácticas", "Grupo BioRes, UPV/EHU", "2024–26"),
+        ("Redes informadas por la física", "Prácticas", "BCAM, Bilbao", "2024"),
+        ("Simulación de cohetes", "Miembro del equipo", "Bisky Team, UPV/EHU", "2023–24"),
+    ]),
+    ("Liderazgo", [
+        ("ENEF 2025, congreso nacional de estudiantes de física", "Codirector, responsable de finanzas", "Euskadi", "2024–25"),
+        ("ZIMATEK, asociación de estudiantes de física y electrónica", "Secretario, miembro de la junta", "UPV/EHU, Leioa", "2022–25"),
+        ("Grupo estudiantil de la RSEF", "Cofundador, secretario", "UPV/EHU", "2023–25"),
+        ("Divulgación científica en colegios", "Cocoordinador", "Bizkaia", "2023–"),
+    ]),
+    ("Docencia y mentoría", [
+        ("Física y matemáticas", "Profesor particular", "Bilbao", "2022–"),
+        ("Alumnado de primer curso", "Tutor entre iguales", "UPV/EHU", "2022–23"),
+        ("Talentia Skills", "Mentor", "Bizkaia Talent", "2023–24"),
+        ("Olimpiada de Física", "Organizador, formador", "Euskadi", "2024–25"),
+    ]),
+]
+
+T["es"] = dict(
+    lang="es", title="Josu Bayer, físico e ingeniero que gestiona proyectos y construye con IA",
+    desc="Físico e ingeniero electrónico de Bizkaia. Proyectos liderados, investigación y pequeñas aplicaciones.",
+    skip="Saltar al contenido", hello="Saluda", other_lang="Castellano", other_href="es/",
+    self_href="./", sentence="Josu Bayer, físico e ingeniero electrónico de Bizkaia.", h1=("Gestiono proyectos", "y construyo con IA."),
+    h_about="Sobre mí", h_work="Trabajo", h_bg="Trayectoria", h_contact="Contacto",
+    about=[
+        "<mark class=\"hl3\">Soy Josu Bayer</mark>, físico e ingeniero electrónico de <mark class=\"hl2\">Bizkaia</mark>. Hice un doble grado en la UPV/EHU y después un <mark class=\"hl1\">máster en IA y tecnología del lenguaje</mark>. Me dedico a la <mark class=\"hl1\">gestión de proyectos</mark>, y codirigí <mark class=\"hl2\">ENEF 2025</mark>, un congreso nacional para 200 estudiantes de física, para el que conseguí <mark class=\"hl1\">más de 80.000 €</mark>. Las aplicaciones de abajo las he construido yo y las uso."
+    ],
+    about_cta="¿Necesitas un gestor de proyectos que además entienda de IA? Saluda.",
+    chips=[("all", "Todo"), ("m", "Liderazgo"), ("a", "IA e investigación"), ("p", "Aplicaciones")],
+    view_repo="Abrir el código",
+    bridge_cap="El Puente de Bizkaia, inaugurado en 1893, cruza a la gente por la ría en una góndola colgante. Une dos orillas sin ocultar ninguna, como yo trabajo entre gestionar personas y construir con IA.",
+    repo_hint="Las filas con flecha abren el código en GitHub.",
+    ria_cap="Gaztelugatxe, en la costa de Bizkaia.",
+    butroi_cap="Castillo de Butrón, Gatika.",
+    contact_rows=["Bizkaia, País Vasco", "bayer.josu@gmail.com", "LinkedIn", "GitHub, josu-bayer", "CV, una página"],
+    hello_big="Hola",
+    photo_alt="Retrato de Josu Bayer",
+    f_pages="Páginas", f_elsewhere="En otros sitios", f_lang="Idioma", f_note="Hecho a mano",
+    legal="© 2026 Josu Bayer Agirre",
+    credits="Imágenes de Wikimedia Commons: Puente de Bizkaia, dominio público; Gaztelugatxe, Diego Delso, CC BY-SA 4.0; Castillo de Butrón, Juliaaaperezz, CC BY-SA 4.0.",
+    email_subject="Hola Josu",
+)
+
+# ---------------------------------------------------------------- 2026-11-19: pantaila-argazkiak, SEO
+# Aplikazioen pantaila-argazkiak: id (irudiaren izena), repoa, izena, eta alt testua hizkuntzaka.
+# Argazkiak zuzeneko aplikazioetatik hartuak, datu-zerbitzuak blokeatuta, datu pertsonalik gabe.
+SCREENS = [
+    dict(id="bl", repo="begi-luze", name="Begi Luze",
+         en="Begi Luze on a phone, the portfolio view with its three totals and an empty list of positions",
+         eu="Begi Luze mugikorrean, zorroaren ikuspegia hiru guztirekin eta posiziorik gabeko zerrendarekin",
+         es="Begi Luze en el móvil, la vista de cartera con sus tres totales y la lista de posiciones vacía"),
+    dict(id="egutegie", repo="egutegie", name="Egutegie",
+         en="Egutegie on a phone, a month view of November 2026 in Basque with today marked",
+         eu="Egutegie mugikorrean, 2026ko azaroaren hilabete-ikuspegia, gaurko eguna markatuta",
+         es="Egutegie en el móvil, la vista mensual de noviembre de 2026 en euskera con el día de hoy marcado"),
+    dict(id="ascension", repo="ascension-system", name="Ascension System",
+         en="Ascension System on a phone, the dark blue login screen titled Identify Yourself",
+         eu="Ascension System mugikorrean, saioa hasteko pantaila urdin iluna, Identify Yourself izenburuarekin",
+         es="Ascension System en el móvil, la pantalla de acceso azul oscuro titulada Identify Yourself"),
+    dict(id="zerrenda", repo="zerrenda", name="Zerrenda",
+         en="Zerrenda on a phone, the shopping list screen with its tabs and an empty list",
+         eu="Zerrenda mugikorrean, erosketa-zerrendaren pantaila fitxekin eta zerrenda hutsarekin",
+         es="Zerrenda en el móvil, la pantalla de la lista de la compra con sus pestañas y la lista vacía"),
+    dict(id="entzungela", repo="entzungela", name="Entzungela",
+         en="Entzungela on a phone, the library entry screen that asks for an access key",
+         eu="Entzungela mugikorrean, liburutegirako sarrera-pantaila, sarbide-gakoa eskatzen duena",
+         es="Entzungela en el móvil, la pantalla de entrada a la biblioteca que pide una clave de acceso"),
+]
+
+EXTRA = {
+    "en": dict(h_screens="The apps, as they open on a phone", og_locale="en_GB",
+               og_title="Josu Bayer, project manager who builds with AI",
+               job="Project manager, physicist and electronic engineer", screens_label="App screens, scroll sideways"),
+    "eu": dict(h_screens="Aplikazioak, mugikorrean irekitzean", og_locale="eu_ES",
+               og_title="Josu Bayer, AArekin eraikitzen duen proiektu-kudeatzailea",
+               job="Proiektu-kudeatzailea, fisikaria eta ingeniari elektronikoa", screens_label="Aplikazioen pantailak, alboetara korritu"),
+    "es": dict(h_screens="Las aplicaciones, tal como se abren en el móvil", og_locale="es_ES",
+               og_title="Josu Bayer, gestor de proyectos que construye con IA",
+               job="Gestor de proyectos, físico e ingeniero electrónico", screens_label="Pantallas de las aplicaciones, desplaza a los lados"),
+}
+for _k, _v in EXTRA.items():
+    T[_k].update(_v)
+T["eu"]["h1"] = ("Proiektuak kudeatu", "eta AArekin eraiki.")

@@ -1,0 +1,166 @@
+%-------------------------
+% One-page PM resume, based on Jake Gutierrez's "Jake's Resume" template (MIT)
+% https://github.com/jakegut/resume
+% ATS-friendly: single column, real text, glyphtounicode
+%-------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[spanish]{babel}
+\usepackage{tabularx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{XCharter}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% A4 page, tight margins
+\usepackage[a4paper, left=1.5cm, right=1.5cm, top=0.9cm, bottom=0.7cm]{geometry}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Machine-readable PDF for ATS
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2.5pt}}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{3pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeLine}[2]{
+  \item
+    \begin{tabularx}{\textwidth}[t]{@{}X@{\hspace{10pt}}r@{}}
+      \small #1 & \small #2 \\
+    \end{tabularx}\vspace{-3pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-2pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in, topsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Josu Bayer Agirre} \\ \vspace{2pt}
+    {\small Gestión de Proyectos y Delivery $|$ Física e Ingeniería Electrónica $|$ Máster en IA} \\ \vspace{3pt}
+    \small Bizkaia, España (disponibilidad para reubicarme) $|$
+    \href{mailto:bayer.josu@gmail.com}{bayer.josu@gmail.com} \\
+    \href{https://www.linkedin.com/in/josu-bayer-agirre-090678208/}{linkedin.com/in/josu-bayer-agirre-090678208}
+\end{center}
+\vspace{-6pt}
+
+\section{Resumen}
+\small{Físico e ingeniero electrónico con un máster en Inteligencia Artificial y Tecnología del Lenguaje (TFM completado, defensa en febrero de 2027) y tres años de liderazgo de proyectos en organizaciones sin ánimo de lucro: codirigió un congreso nacional de 200 asistentes, con el comité de finanzas a su cargo, que logró \textbf{más de 80.000 € de unos 30 patrocinadores}, y gestionó un programa anual de \textbf{más de 12 eventos}. Formación en EDT, Gantt, camino crítico y gestión de riesgos; capaz de tender puentes entre negocio y equipos de ingeniería o IA. Inglés C2; castellano y euskera nativos. Disponible de inmediato.}
+\vspace{-2pt}
+
+\section{Experiencia de liderazgo de proyectos}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Codirector de la Organización y Responsable de Finanzas y Financiación}{sep 2024 -- ago 2025}
+      {ENEF 2025, Congreso Nacional de Estudiantes de Física}{País Vasco, España}
+      \resumeItemListStart
+        \resumeItem{Consiguió \textbf{más de 80.000 € de unas 30 empresas e instituciones públicas} redactando la propuesta del proyecto y los dosieres de patrocinio y gestionando los contactos hasta los acuerdos firmados, lo que financió por completo un congreso de 5 días con \textbf{unos 200 estudiantes}.}
+        \resumeItem{Codirigió el \textbf{equipo organizador de más de 20 personas} como uno de sus dos responsables, con responsabilidad exclusiva sobre el \textbf{comité de finanzas de 6 personas}; elaboró el plan de gasto en alojamiento, sedes y actividades.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Secretario y miembro de la junta}{sep 2022 -- sep 2025}
+      {ZIMATEK, Asociación de Estudiantes de Física e Ingeniería Electrónica (UPV/EHU)}{Leioa, España}
+      \resumeItemListStart
+        \resumeItem{Llevó a cabo un programa anual de \textbf{más de 12 concursos y charlas} (unas 60 personas por evento, hasta 200) desde la junta, a la vez que cursaba un doble grado a tiempo completo.}
+        \resumeItem{Diseñó y vendió cursos de LaTeX a \textbf{más de 100 asistentes}, incluido personal de Ikerlan, con \textbf{3.700 €} de ingresos para la asociación.}
+        \resumeItem{Cogestionó un presupuesto anual de varios miles de euros con tesorería y presidencia (financiación universitaria, ingresos de cursos, Semana de la Ciencia).}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Cofundador y secretario}{oct 2023 -- sep 2025}
+      {Grupo Estudiantil de la RSEF, delegación de la UPV/EHU}{Leioa, España}
+      \resumeItemListStart
+        \resumeItem{Puso en marcha la delegación desde cero y organizó las fases locales de competiciones nacionales de física, incluida la Olimpiada de Física de 2025 en Euskadi: exámenes, vigilancia y logística de participantes.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Cocoordinador, divulgación científica en colegios}{abr 2023 -- actualidad}
+      {Equipo independiente, antes dentro de ZIMATEK}{Bizkaia, España}
+      \resumeItemListStart
+        \resumeItem{Cocoordina un \textbf{equipo de 4 personas} que imparte talleres de experimentos en varios colegios: contacto con los centros, presupuesto de material, actas y seguimiento de tareas.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Investigación y experiencia técnica}
+  \resumeSubHeadingListStart
+    \resumeLine{\textbf{Investigador en prácticas, grupo IXA de PLN (UPV/EHU)}: modelos de PLN para la detección temprana de riesgo en salud mental, con fecha límite fija de una competición internacional (IberLEF).}{nov 2025 -- actualidad}
+    \resumeLine{\textbf{Investigador en prácticas, grupo BioRes (UPV/EHU)}: modelos de aprendizaje automático en MATLAB para estimar el gasto cardíaco a partir de señales BCG.}{sep 2024 -- jun 2026}
+    \resumeLine{\textbf{Investigador en prácticas, BCAM}: redes neuronales informadas por la física para simulación de energías renovables; informes periódicos de avance al equipo.}{ago -- oct 2024}
+    \resumeLine{\textbf{Prácticas de simulación, Bisky Team (cohetería estudiantil)}: simulaciones para reducir el riesgo de dos lanzamientos reales; informes de avance para competiciones internacionales.}{sep 2023 -- sep 2024}
+    \resumeLine{\textbf{Product Owner, proyectos personales}: lancé y mantengo 8 aplicaciones web de uso diario entre amigos y familia; defino el alcance de cada versión a partir de sus comentarios.}{En curso}
+  \resumeSubHeadingListEnd
+
+\section{Formación}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Máster en Inteligencia Artificial y Tecnología del Lenguaje}{sep 2025 -- feb 2027 (prevista)}
+      {Universidad del País Vasco (UPV/EHU)}{Donostia, España}
+      \resumeItemListStart
+        \resumeItem{Asignaturas completadas; máximas calificaciones en Razonamiento Automático (10/10), Métodos de Investigación en PLN (10/10), Aprendizaje Profundo (9,5/10) y Aplicaciones de PLN (9,2/10).}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Doble grado: Física e Ingeniería Electrónica}{sep 2020 -- jun 2026}
+      {Universidad del País Vasco (UPV/EHU), nota media 7,64/10}{Leioa, España}
+      \resumeItemListStart
+        \resumeItem{Asignatura relevante: \textit{Empresa y Proyectos}: EDT, diagramas de Gantt, método del camino crítico, estimación de costes y recursos, análisis de viabilidad y de riesgos.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Cursos de gestión de proyectos y de producto}{oct 2026 -- actualidad}
+      {Formación continua junto al máster}{En línea / Bilbao}
+      \resumeItemListStart
+        \resumeItem{Curso de gestión de proyectos PMI Kickoff (completado en oct 2026): acta de constitución, hoja de riesgos, informes de estado y cierre.}
+        \resumeItem{Gestor de Producto Digital, 150 h, Bilbao, en curso.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Competencias}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Gestión de proyectos}{: alcance y EDT, planificación (Gantt, camino crítico), presupuestos, captación de fondos y patrocinio, gestión de riesgos, gestión de partes interesadas, informes de seguimiento} \\
+     \textbf{Herramientas}{: Notion, Google Workspace, Excel, Microsoft Office, Git/GitHub, LaTeX, Python, MATLAB} \\
+     \textbf{Idiomas}{: inglés (C2, CPE), castellano (nativo), euskera (nativo, HABE C1), catalán (básico)} $|$ \textbf{Carné de conducir}{: B, coche propio}
+    }}
+ \end{itemize}
+
+\end{document}
