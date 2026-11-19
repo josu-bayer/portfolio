@@ -105,14 +105,15 @@ def page(lang):
             f'<img src="{A("img/" + izena + ".jpg")}" width="{w}" height="{h}" alt="{alt}" loading="lazy" decoding="async"{extra}></picture>'
         )
 
-    # aplikazioen pantailak
-    screens = "".join(
-        f'<li class="scr"><a href="{GH}{sc["repo"]}" aria-label="{e(sc["name"])}, {e(t["view_repo"])}">'
-        f'<picture><source type="image/webp" srcset="{A("img/aplikazioak/" + sc["id"] + ".webp")}">'
-        f'<img src="{A("img/aplikazioak/" + sc["id"] + ".jpg")}" width="540" height="900" alt="{e(sc[lang])}" loading="lazy" decoding="async"></picture>'
-        f'<span class="scr-n">{e(sc["name"])}{ARROW}</span></a></li>'
-        for sc in SCREENS
-    )
+    # aplikazioen pantailak (repo publikorik ez badago, esteka barik)
+    def scr(sc):
+        pic = (f'<picture><source type="image/webp" srcset="{A("img/aplikazioak/" + sc["id"] + ".webp")}">'
+               f'<img src="{A("img/aplikazioak/" + sc["id"] + ".jpg")}" width="540" height="900" alt="{e(sc[lang])}" loading="lazy" decoding="async"></picture>')
+        if not sc.get("repo"):
+            return f'<li class="scr">{pic}<span class="scr-n">{e(sc["name"])}</span></li>'
+        return (f'<li class="scr"><a href="{GH}{sc["repo"]}" aria-label="{e(sc["name"])}, {e(t["view_repo"])}">'
+                f'{pic}<span class="scr-n">{e(sc["name"])}{ARROW}</span></a></li>')
+    screens = "".join(scr(sc) for sc in SCREENS)
 
     mailto = f"mailto:{EMAIL}?subject={e(t['email_subject']).replace(' ', '%20')}"
     cr = t["contact_rows"]

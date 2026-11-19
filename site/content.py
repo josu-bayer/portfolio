@@ -300,29 +300,30 @@ T["es"] = dict(
 )
 
 # ---------------------------------------------------------------- 2026-11-19: pantaila-argazkiak, SEO
-# Aplikazioen pantaila-argazkiak: id (irudiaren izena), repoa, izena, eta alt testua hizkuntzaka.
-# Argazkiak zuzeneko aplikazioetatik hartuak, datu-zerbitzuak blokeatuta, datu pertsonalik gabe.
+# Aplikazioen pantaila-argazkiak: id (irudiaren izena), repoa (None = repo publikorik ez, esteka barik),
+# izena, eta alt testua hizkuntzaka. Argazkiak aplikazioen kopietatik hartuak (2026-11-20), Firebase faltsu
+# batekin eta asmatutako datuekin, benetako Firestore-ra konexiorik gabe. Ez dago datu pertsonalik.
 SCREENS = [
-    dict(id="bl", repo="begi-luze", name="Begi Luze",
-         en="Begi Luze on a phone, the portfolio view with its three totals and an empty list of positions",
-         eu="Begi Luze mugikorrean, zorroaren ikuspegia hiru guztirekin eta posiziorik gabeko zerrendarekin",
-         es="Begi Luze en el móvil, la vista de cartera con sus tres totales y la lista de posiciones vacía"),
-    dict(id="egutegie", repo="egutegie", name="Egutegie",
-         en="Egutegie on a phone, a month view of November 2026 in Basque with today marked",
-         eu="Egutegie mugikorrean, 2026ko azaroaren hilabete-ikuspegia, gaurko eguna markatuta",
-         es="Egutegie en el móvil, la vista mensual de noviembre de 2026 en euskera con el día de hoy marcado"),
     dict(id="ascension", repo="ascension-system", name="Ascension System",
-         en="Ascension System on a phone, the dark blue login screen titled Identify Yourself",
-         eu="Ascension System mugikorrean, saioa hasteko pantaila urdin iluna, Identify Yourself izenburuarekin",
-         es="Ascension System en el móvil, la pantalla de acceso azul oscuro titulada Identify Yourself"),
-    dict(id="zerrenda", repo="zerrenda", name="Zerrenda",
-         en="Zerrenda on a phone, the shopping list screen with its tabs and an empty list",
-         eu="Zerrenda mugikorrean, erosketa-zerrendaren pantaila fitxekin eta zerrenda hutsarekin",
-         es="Zerrenda en el móvil, la pantalla de la lista de la compra con sus pestañas y la lista vacía"),
+         en="Ascension System on a phone, a hunter's dashboard at level 16 with four stats and some of today's exercises done",
+         eu="Ascension System mugikorrean, ehiztariaren panela 16. mailan, lau estatistikekin eta gaurko ariketa batzuk eginda",
+         es="Ascension System en el móvil, el panel de un cazador en el nivel 16 con sus cuatro estadísticas y parte de los ejercicios de hoy hechos"),
+    dict(id="egutegie", repo="egutegie", name="Egutegie",
+         en="Egutegie on a phone, a month view of November 2026 in Basque with sample events coloured by type",
+         eu="Egutegie mugikorrean, 2026ko azaroaren hilabete-ikuspegia, motaren arabera koloreztatutako adibide-gertaerekin",
+         es="Egutegie en el móvil, la vista mensual de noviembre de 2026 en euskera con eventos de ejemplo coloreados por tipo"),
+    dict(id="sutelagun", repo="sutelagun", name="Sutelagun",
+         en="Sutelagun on a phone, a diet day with calorie and protein bars and two meals ticked off",
+         eu="Sutelagun mugikorrean, dieta-eguna, kaloria- eta proteina-barrekin eta bi otordu eginda",
+         es="Sutelagun en el móvil, un día de dieta con las barras de calorías y proteína y dos comidas hechas"),
     dict(id="entzungela", repo="entzungela", name="Entzungela",
-         en="Entzungela on a phone, the library entry screen that asks for an access key",
-         eu="Entzungela mugikorrean, liburutegirako sarrera-pantaila, sarbide-gakoa eskatzen duena",
-         es="Entzungela en el móvil, la pantalla de entrada a la biblioteca que pide una clave de acceso"),
+         en="Entzungela on a phone, a sample library of audiobooks with listening progress bars",
+         eu="Entzungela mugikorrean, adibideko entzun-liburuen liburutegia, entzunaldiaren aurrerapen-barrekin",
+         es="Entzungela en el móvil, una biblioteca de audiolibros de ejemplo con barras de progreso de escucha"),
+    dict(id="zilundi", repo=None, name="Zilundi",
+         en="Zilundi on a phone, a list of watched films with dates, ratings and genres",
+         eu="Zilundi mugikorrean, ikusitako filmen zerrenda, data, puntuazio eta generoekin",
+         es="Zilundi en el móvil, la lista de películas vistas con fecha, nota y géneros"),
 ]
 
 EXTRA = {
